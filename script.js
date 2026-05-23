@@ -229,11 +229,14 @@ function initModals() {
     const closeBtn = document.getElementById('modal-close-btn');
     const checkoutBtn = document.getElementById('btn-checkout-final');
 
+    // Disabling modal trigger since button was converted to direct Kiwify link
+    /*
     if (checkoutBtn) {
         checkoutBtn.addEventListener('click', () => {
             if (checkoutModal) checkoutModal.classList.add('active');
         });
     }
+    */
 
     if (closeBtn) {
         closeBtn.addEventListener('click', () => {
